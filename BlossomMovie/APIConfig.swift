@@ -6,7 +6,7 @@
 //
 
 // Where I left last time
-// https://youtu.be/-VC3hIEL7eQ?t=3243
+// https://youtu.be/-VC3hIEL7eQ
 
 import Foundation
 
