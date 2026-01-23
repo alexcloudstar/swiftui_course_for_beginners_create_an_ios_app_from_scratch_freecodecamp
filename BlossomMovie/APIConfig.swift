@@ -6,13 +6,16 @@
 //
 
 // Where I left last time
-// https://youtu.be/-VC3hIEL7eQ
+// https://youtu.be/-VC3hIEL7eQ?t=6759
 
 import Foundation
 
 struct APIConfig: Decodable {
     let tmdbBaseURL: String
     let tmdbAPIKey: String
+    let youtubeBaseURL: String
+    let youtubeAPIKey: String
+    let youtubeSearchURL: String
     
     static let shared: APIConfig? = {
         do {
